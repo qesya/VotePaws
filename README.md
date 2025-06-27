@@ -143,8 +143,6 @@ EXPO_PUBLIC_BASE_URL=https://api.thecatapi.com/v1
 CAT_API_KEY=live_JWVg41i2rNdMKfkpeGJxb3aR5qlPWOBGQALlzzHnXWx0CoKT14wCnaYSpk174RMJ
 ```
 
-To enable Storybook mode, change `STORYBOOK_MODE` to `true`.
-
 3. Run the App
 To start on iOS:
 
