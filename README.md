@@ -12,10 +12,6 @@ Votepaws is a mobile application built with React Native and Expo. Users can bro
 
 [▶️ Watch Android Demo](demo/android-demo.mov)
 
-### Storybook Demo
-
-[▶️ Watch Storybook Demo](demo/storybook-demo.mov)
-
 
 ### Tech Stack
 
