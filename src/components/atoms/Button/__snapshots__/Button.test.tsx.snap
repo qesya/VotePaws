@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders left icon when provided 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      [
+        {
+          "alignContent": "center",
+          "flexDirection": "column",
+        },
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#1a73e8",
+            "borderRadius": 8,
+            "elevation": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+            "shadowColor": "rgba(18, 23, 33, 1)",
+            "shadowOffset": {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.05,
+            "shadowRadius": 2,
+          },
+          undefined,
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          },
+        ],
+        {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      ]
+    }
+    testID="pressable-btn-inner-view-test"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={24}
+        bbWidth={24}
+        fill="none"
+        focusable={false}
+        height={24}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "marginRight": 8,
+            },
+            {
+              "flex": 0,
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+        vbHeight={16}
+        vbWidth={16}
+        width={24}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            clipRule={0}
+            d="M10.232 4.184a.6.6 0 0 1-.016.848L7.066 8l3.15 2.967a.6.6 0 1 1-.832.865l-3.6-3.4a.6.6 0 0 1 0-.865l3.6-3.4a.6.6 0 0 1 .848.017Z"
+            fill={
+              {
+                "payload": 4294967295,
+                "type": 0,
+              }
+            }
+            fillRule={0}
+            propList={
+              [
+                "fill",
+                "fillRule",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "InterSemibold",
+              "fontSize": 14,
+              "lineHeight": 17.5,
+            },
+            {
+              "textAlign": "left",
+            },
+            undefined,
+            [
+              {
+                "color": "#ffffff",
+                "textDecorationLine": "none",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        With Icon
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button renders right icon when provided 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      [
+        {
+          "alignContent": "center",
+          "flexDirection": "column",
+        },
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#1a73e8",
+            "borderRadius": 8,
+            "elevation": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+            "shadowColor": "rgba(18, 23, 33, 1)",
+            "shadowOffset": {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.05,
+            "shadowRadius": 2,
+          },
+          undefined,
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          },
+        ],
+        {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      ]
+    }
+    testID="pressable-btn-inner-view-test"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "InterSemibold",
+              "fontSize": 14,
+              "lineHeight": 17.5,
+            },
+            {
+              "textAlign": "left",
+            },
+            undefined,
+            [
+              {
+                "color": "#ffffff",
+                "textDecorationLine": "none",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        With Icon
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={24}
+        bbWidth={24}
+        fill="none"
+        focusable={false}
+        height={24}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "marginLeft": 8,
+            },
+            {
+              "flex": 0,
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+        vbHeight={16}
+        vbWidth={16}
+        width={24}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            clipRule={0}
+            d="M10.232 4.184a.6.6 0 0 1-.016.848L7.066 8l3.15 2.967a.6.6 0 1 1-.832.865l-3.6-3.4a.6.6 0 0 1 0-.865l3.6-3.4a.6.6 0 0 1 .848.017Z"
+            fill={
+              {
+                "payload": 4294967295,
+                "type": 0,
+              }
+            }
+            fillRule={0}
+            propList={
+              [
+                "fill",
+                "fillRule",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
